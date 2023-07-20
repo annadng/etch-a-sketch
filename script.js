@@ -15,7 +15,6 @@ function createGrid(gridSize) {
 
 function colorPixels() {
     this.style.backgroundColor = 'pink';
-    console.log('hello');
 }
 
 const sizeSlider = document.getElementById('sizeSlider');
