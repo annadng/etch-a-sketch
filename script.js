@@ -18,6 +18,9 @@ function colorPixels() {
     console.log('hello');
 }
 
+const sizeSlider = document.getElementById('sizeSlider');
+sizeSlider.addEventListener('change', (e) => createGrid(e.target.value));
+
 window.onload = () => {
     createGrid(20);
 }
