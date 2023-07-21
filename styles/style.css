@@ -1,3 +1,33 @@
+/* text */
+
+html {
+    font-size: 16px;
+    color: black;
+} 
+
+h1 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+/* body */
+
+body{
+    background-color: #ebe8ea;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
 .grid-squares-div {
     display: grid;
     height: 500px;
